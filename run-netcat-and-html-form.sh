@@ -1,8 +1,9 @@
 #!/bin/bash
+PORT=8080
 N=0;
 while sleep .25; do
 	echo
 	figlet -w 130 -f small "Port 8081: Serving #$N..."
 	(( N++ ))
-	nc -l -p 8081 -q 1 < { cat http.headers index.html } | pygmentize
+	cat http.headers index.html | nc -l -p $PORT -q 1 | pygmentize -l http
 done
