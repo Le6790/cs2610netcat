@@ -5,7 +5,7 @@
 		<title>Testing headers</title>
 	</head>
 	<body>
-		<form action="#" method="GET">
+		<form action="#" method="get">
 
 			<div>
 				<label for="my-textinput">This is the label for my very 1st text input</label>
@@ -18,9 +18,68 @@
 			</div>
 
 			<!-- your widgets go in here -->
+			<fieldset>
+				<legend>Create Account</legend>
+				<div>
+					<label for= "name">Name: </label>
+					<input type ="text" id= "name" name="user_name">
+				
+					<label for="age">Age:</label>
+					<input type ="text" id="age" name="user_age">
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input type ="email" id ="email" name="user_email">
+				
+					<label for="password">Password:</label>
+					<input type ="password" id= "password" name= "password">
+				</div>
+				<div>
+					<label for="search">Search: </label>
+					<input type ="search" id="search" name="search">
+					<label for="url">URL</label>
+					<input type="url" id ="url" name="url">
+				</div>
+				<div>
+					<label for="msg">Text Field:</label><br>
+					<textarea id="msg" name="message" cols="10" rows="5"></textarea>
+				</div>
+				<div>
+					<label for="simple">Drop Down Menu</label>
+					<select id="simple" name="dropDown" >
+						<option>Utah State University</option>
+						<option>Utah Valley University</option>
+						<option>Weber State University</option>
+						<option>Dixie State University</option>
+					</select>
+				</div>
+				<div>
+					<label for="selectBox">Multiple Choice Major Select Box</label><br>
+					<select multiple id="selectBox" name="selectBox">
+						<option>Computer Science</option>
+						<option>Biological Engineering</option>
+						<option>Political Science</option>
+						<option>Mechanical Engineering</option>
+					</select>
+				</div>
+				<div>
+					<label for="choice"> Engineer?:</label>
+					<input type ="radio" checked id="Yes" value="Yes" name="choice">
+					<input type ="radio" checked id="No" value="No" name="choice">
 
+					<label for="checkbox">Checkbox (option1 or option2):</label>
+					<input type="checkbox" checked id="option1" value="option1" name="checkbox">
+					<input type ="checkbox"checked id="option2" value ="option2"name ="checkbox">
+				</div>
+				<div>
+					<label for="slider">Slider:</label>
+					<input type="range" name="slide" id="slide" min="0" max="10" step="1">
+				</div>
+				
+			</fieldset>
 			<div>
-				<button type="submit">Submit Form</button>
+				<button type="submit">Submit</button>
+				<button Type="reset">Reset</button>>
 			</div>
 		</form>
 	</body>
