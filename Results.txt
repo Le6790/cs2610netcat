@@ -1,0 +1,64 @@
+Instruction 5: 
+REQUEST HEADERS:
+POST / HTTP/1.1
+Host: cs2610-le6790.c9users.io
+Connection: keep-alive
+Content-Length: 281
+Cache-Control: max-age=0
+Origin: https://cs2610-le6790.c9users.io
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://cs2610-le6790.c9users.io/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.8
+Cookie: c9.live.user.jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTMwNDIiLCJuYW1lIjoibGU2NzkwIiwiY29kZSI6IjljOVBsbDQ0bGtydWFmV1lVM2RrIiwiaWF0IjoxNTA3OTIwNDUxLCJleHAiOjE1MDgwMDY4NTF9.zumj_H_KZg_3s8p1dQMwUrHnyhvb9nCYtFvGi6ERZS0; c9.live.user.sso=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTMwNDIiLCJuYW1lIjoibGU2NzkwIiwiaWF0IjoxNTA3OTIwNDUxLCJleHAiOjE1MDgwMDY4NTF9.LfHufEhUQD5E8ge65RU0lPdv5-tQyGJ3p3Gch3P301w; result=text1=1stTextInput&slider=100&user_name=Kent&user_age=20&user_email=le6790%40gmail.com&password=passwordhere&search=search+query&url=http%3A%2F%2Fyoutube.com&message=Texting+in+the+field&dropDown=Utah+State+University&selectBox=Computer+Science&choice=Yes&checkbox=option1&slide=10#; college=usu; state=utah
+
+RESPONSE HEADERS:
+HTTP/1.1 200 OK
+server: Erik's simple server
+keep-alive: timeout=5, max=100
+content-type: text/html
+cache-control: max-age=60
+set-cookie: college=usu
+set-cookie: state=utah
+set-cookie: college=usu
+set-cookie: state=utah
+set-cookie: college=usu
+set-cookie: state=utah
+set-cookie: college=usu
+set-cookie: state=utah
+Date: Fri, 13 Oct 2017 19:07:18 GMT
+Transfer-Encoding: chunked
+X-BACKEND: apps-proxy
+
+
+ ___                      _       _ _   _       
+| _ \___ __ _ _  _ ___ __| |_   _| | |_/ |      
+|   / -_) _` | || / -_|_-<  _| |_  .  _| |_ _ _ 
+|_|_\___\__, |\_,_\___/__/\__| |_     _|_(_|_|_)
+           |_|                   |_|_|          
+http://cs2610-le6790.c9users.io
+[Hit Ctrl-C once to reload the document on the server]
+[Hit Ctrl-C twice in a row to exit]
+POST / HTTP/1.1
+host: cs2610-le6790.c9users.io:80
+content-length: 289
+cache-control: max-age=0
+origin: http://cs2610-le6790.c9users.io
+upgrade-insecure-requests: 1
+content-type: application/x-www-form-urlencoded
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+referer: http://cs2610-le6790.c9users.io/
+accept-encoding: gzip, deflate
+accept-language: en-US,en;q=0.8
+cookie: college=usu; state=utah
+x-forwarded-proto: http
+x-forwarded-port: 80
+x-forwarded-for: 75.169.94.136
+Connection: keep-alive
+
+text1=Label&slider=50&user_name=Kent&user_age=20&user_email=le%40gmail.com&password=adsklfjaertoujwetojlsdkfgjasdlkg&search=search+query&url=http%3A%2F%2Fyoutube.com&message=This+is+the+Text+Field&dropDown=Utah+State+University&selectBox=Computer+Science&choice=No&checkbox=option1&slide=6
+Sat Oct 14 04:20:44 UTC 2017
